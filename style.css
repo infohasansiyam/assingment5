@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+}
+
+.cover{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cover_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.cover_content image{
+    flex: 20%;
+
+}
+
+.cover_content .texts{
+    flex: 80%;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.texts h2{
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.palyers{
+    display: flex;
+
+}
+
+
+.card-group{
+  flex: 0%;
+}
+
+.card-group img{
+width: 100%;
+height: auto;
+}
+
+.card{
+    background-color: #222;
+}
+
+
+.invoice{
+    display: block;
+    width: 100%;
+    color: #000;
+}
